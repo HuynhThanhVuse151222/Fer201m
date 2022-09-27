@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Players } from "./shared/ListOfPlayers";
 import { useState } from "react";
-import { ReactDOM } from "react-dom";
-import PlayerDetails from "./PlayerDetails";
+
+
 
 export default function Players1() {
   const [player, setPlayer] = useState([false]);
@@ -33,8 +33,7 @@ export default function Players1() {
           </div>
         </div>
       ))}
-{isShow 
-? (
+{isShow ? (
       <div id="popup1" className="overlay" >
         <div className="popup" id="2s">
           <img src={player.img} alt="pic" />
@@ -42,7 +41,7 @@ export default function Players1() {
           <p onClick={() => setIsShow(false)} className="close" href="popup1">
             &times;
           </p>
-          <div className="content">{player.info}</div>
+          <div className="content">Main content:{player.info}</div>
 
         </div>
 

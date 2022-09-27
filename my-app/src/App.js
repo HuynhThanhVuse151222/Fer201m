@@ -1,27 +1,22 @@
 // import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
-import Main from './components/Main';
+import Main2 from './components/Main2';
 import Navigation from './components/Navigation';
 import { useState, createContext } from 'react';
 
-const ThemeContext =  createContext (null);
+
 
 function App() {
-  const [theme, setTheme] = useState("dark");
-    const toggleTheme = () =>{
-         setTheme((curr) => (curr === "light" ? "dark" : "light"));
-    };
 
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-    <div className="App" id ={theme}>
+    
+    <div className="App" id='dark'>
      <Navigation/> 
-     <Main/>
+     <Main2 />
    <Footer/>
     </div>
-    </ThemeContext.Provider>
   );
 }
 

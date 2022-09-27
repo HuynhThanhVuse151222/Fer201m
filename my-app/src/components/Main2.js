@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Films } from '../shared/ListOfFilms';
 import FilmsPresentation from './FilmsPresentation'
+import Films1 from '../Films';
 export  class Main2 extends Component {
     constructor(){
         super();
@@ -12,7 +13,7 @@ export  class Main2 extends Component {
     }
     render(){
         
-         return<FilmsPresentation phimp = {this.state.phimp}/>        
+         return<Films1 phimp = {this.state.phimp}/>        
     }
 }
 export default Main2

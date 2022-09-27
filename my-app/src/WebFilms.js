@@ -14,9 +14,4 @@ function WebFilms() {
     );
   }
   
-  // class Content extends React.Component{
-  //   componentWillMount(){
-  //     console.log()
-  //   }
-  // }
   export default WebFilms;
