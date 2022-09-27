@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 html {
 
   height: 100vh;
+=======
+* {
+  box-sizing: border-box;
+>>>>>>> 0c60c4bd8bdceeb2a2f4831a52b3238e22ccc11d
 }
 body {
   margin: 0;
@@ -18,6 +23,13 @@ code {
 }
 
 /* chiều cao = 100% chiều cao thiết bị */
+<<<<<<< HEAD
 body {
   height: 100vh;
 }
+=======
+html,
+body {
+  height: 100vh;
+}
+>>>>>>> 0c60c4bd8bdceeb2a2f4831a52b3238e22ccc11d
